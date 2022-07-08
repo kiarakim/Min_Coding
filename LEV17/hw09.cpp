@@ -1,7 +1,7 @@
-#include <iostream>
+ï»¿#include <iostream>
 using namespace std;
 
-// ÀÎ±âÅõÇ¥
+// ì¸ê¸°íˆ¬í‘œ
 
 int main() {
 	int vect[3][3] = { 3,7,4,2,2,4,2,2,5 };
