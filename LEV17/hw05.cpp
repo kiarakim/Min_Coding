@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-// isExistÇÔ¼ö·Î º¸¹°Ã£±â
+// isExistí•¨ìˆ˜ë¡œ ë³´ë¬¼ì°¾ê¸°
 
 int isExist(int arr[3][3], int target);
 
@@ -12,9 +12,9 @@ int main() {
 
 	for (int i = 0; i < 3; i++) {
 		if (isExist(v, a[i]) == 1)
-			cout << a[i] << ":Á¸Àç" << endl;
+			cout << a[i] << ":ì¡´ìž¬" << endl;
 		else
-			cout << a[i] << ":¹Ì¹ß°ß" << endl;
+			cout << a[i] << ":ë¯¸ë°œê²¬" << endl;
 	}
 	return 0;
 }
@@ -57,8 +57,8 @@ int isExist(int arr[3][3], int target) {
 //	}
 //	for (int i = 0; i < 3; i++) {
 //		if (b[i] == 1)
-//			cout << a[i] << ":Á¸Àç" << endl;
+//			cout << a[i] << ":ì¡´ìž¬" << endl;
 //		else
-//			cout << a[i] << ":¹Ì¹ß°ß" << endl;
+//			cout << a[i] << ":ë¯¸ë°œê²¬" << endl;
 //	}
 //}

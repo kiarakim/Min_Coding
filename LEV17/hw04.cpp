@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-// offsetÀ¸·Î ¹üÀÎÀ» Ã£¾Æ¶ó
+// offsetìœ¼ë¡œ ë²”ì¸ì„ ì°¾ì•„ë¼
 int main() {
 	char c[3][5] = { "ATKB", "CZFD", "HGEI" };
 	char ch;

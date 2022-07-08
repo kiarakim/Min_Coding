@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-// ÇÕÄ£ mask ¹è¿­ÀÇ ÁÂÇ¥ ±¸ÇÏ±â
+// í•©ì¹œ mask ë°°ì—´ì˜ ì¢Œí‘œ êµ¬í•˜ê¸°
 
 int main() {
 

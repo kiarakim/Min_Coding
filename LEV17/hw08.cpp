@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-// ¸¶À» »ç¶÷µé Ã£±â
+// ë§ˆì„ ì‚¬ëŒë“¤ ì°¾ê¸°
 int main() {
 	char vect[7] = { "BTKIGZ" };
 	char target[4];
