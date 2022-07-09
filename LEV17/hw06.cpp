@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-// 합친 mask 배열의 좌표 구하기
+// 합친 mask배열의 좌표 구하기
 
 int main() {
 

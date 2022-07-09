@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-// 마을 사람들 찾기
+// 마을사람들 찾기
 int main() {
 	char vect[7] = { "BTKIGZ" };
 	char target[4];

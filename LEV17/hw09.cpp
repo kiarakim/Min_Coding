@@ -1,7 +1,7 @@
-﻿#include <iostream>
+#include <iostream>
 using namespace std;
 
-// 인기투표
+// 인기투표 
 
 int main() {
 	int vect[3][3] = { 3,7,4,2,2,4,2,2,5 };
