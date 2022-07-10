@@ -1,14 +1,14 @@
 #include<iostream>
-#include<cstring> // ¶óÀÌºê·¯¸® : ³²µéÀÌ ¾²¶ó°í ¸¸µé¾î ³õÀº ¼Ò½ºÄÚµå ¹× ÇÔ¼ö
+#include<cstring> // ë¼ì´ë¸ŒëŸ¬ë¦¬ : ë‚¨ë“¤ì´ ì“°ë¼ê³  ë§Œë“¤ì–´ ë†“ì€ ì†ŒìŠ¤ì½”ë“œ ë° í•¨ìˆ˜
 using namespace std;
-//strlen(A) ¹®ÀÚ¿­ ±æÀÌ
-//strcmp(A,B) ¹®ÀÚ¿­ 0ÀÌ¸é °°´Ù°í ¾Ë·ÁÁÜ
+//strlen(A) ë¬¸ìì—´ ê¸¸ì´ 
+//strcmp(A,B) ë¬¸ìì—´ 0ì´ë©´ ê°™ë‹¤ê³  ì•Œë ¤ì¤Œ
 
 int main() {
 
-	//cout << strlen(arr1); //¹®ÀÚ¿­ ±æÀÌ ±¸ÇÏ±â. <cstirng> includeÇØ¾ßÇÔ
+	//cout << strlen(arr1); //ë¬¸ìì—´ ê¸¸ì´ êµ¬í•˜ê¸°. <cstirng> includeí•´ì•¼í•¨
 
-	//strcmp : string compare -> °°À¸¸é 0À» ¸®ÅÏÇÑ´Ù.
+	//strcmp : string compare -> ê°™ìœ¼ë©´ 0ì„ ë¦¬í„´í•œë‹¤.
 	
 	/*char arr[10];
 	cin >> arr;

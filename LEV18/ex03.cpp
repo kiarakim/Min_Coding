@@ -9,7 +9,7 @@ int main() {
 	int n;
 	cin >> n;
 
-	//flag ±¸Çö
+	//flag êµ¬í˜„ 
 	int flag = 1;
 	for (int i = 0; i < 3; i++) {
 		if (A[i + n] != B[i]) {
@@ -18,7 +18,7 @@ int main() {
 		}
 	}
 	if (flag == 1)cout << "O";
-	else cout << "X"; 
+	else cout << "X";
 
 	return 0;
 }

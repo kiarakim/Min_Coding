@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-
+ 
 int A[] = { 4,2,5,3,7,6 };
 int B[] = { 5,3,7 };
 
