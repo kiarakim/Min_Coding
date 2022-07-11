@@ -19,20 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <None Include=".editorconfig" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="ex01.cpp" />
-    <ClCompile Include="ex02.cpp" />
-    <ClCompile Include="ex03.cpp" />
-    <ClCompile Include="ex04.cpp" />
-    <ClCompile Include="ex05.cpp" />
-    <ClCompile Include="ex06.cpp" />
-    <ClCompile Include="ex07.cpp" />
-    <ClCompile Include="ex08.cpp" />
-    <ClCompile Include="ex09.cpp" />
-    <ClCompile Include="ex10.cpp" />
-    <ClCompile Include="ex11.cpp" />
+    <ClCompile Include="hw05.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
