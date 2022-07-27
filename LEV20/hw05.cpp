@@ -5,7 +5,7 @@ char a[6];
 
 void abc(int index) {
 	
-	if (index == 6) {
+	if (index == 5) {
 		cout << endl;
 		return;
 	}
