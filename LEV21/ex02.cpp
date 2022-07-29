@@ -1,24 +1,21 @@
 #include<iostream>
 using namespace std;
 
-int cnt;
-
 void run(int lev) {
-	if (lev == 2)
+	if (lev == 2) {
 		return;
-	
-	cout << cnt;
-	for (int i = 0; i < 2; i++) {
-		cnt++;
-		run(lev + 1);
-		cnt--;
 	}
-	int d = 1;
+	for (int i = 0; i < 2; i++) {
+		cout << i;
+		run(lev + 1);
+		cout << i;
+	}
 }
 
 int main() {
-
 	run(0);
 
 	return 0;
 }
+
+// 000110100111
