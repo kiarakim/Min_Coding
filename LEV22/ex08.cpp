@@ -8,37 +8,31 @@ int v[3][4] = {
 };
 
 int path[3];
-int sum = 0;
 
-void print(int lev) {
-	int sum = 0;
+void print(int lev, int sum) {
 	for (int i = 0; i < lev; i++) {
-		sum += path[i];
 		cout << path[i] << " ";
 	}
-	cout << " = " << sum << endl;
+	cout << "= " << sum << endl;
 }
 
-void run(int lev) {
+void run(int lev, int sum) {
 
 	if (lev == 3) {
-		print(lev);
+		print(lev, sum);
 		return;
 	}
 
-	sum = 0;
 	for (int i = 0; i < 4; i++) {
 		path[lev] = v[lev][i];
-		run(lev + 1);
-		path[lev] = v[lev][i];
+		run(lev + 1, sum + v[lev][i]); // +=하면 sum값이 바뀜
 	}
 
 }
 
 int main() {
 
-	run(0);
+	run(0, 0);
 
 	return 0;
 }
-//------------------------------   "1H32M" ------------------------------
