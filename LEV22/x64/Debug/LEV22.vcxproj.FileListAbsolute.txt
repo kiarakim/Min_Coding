@@ -1,1 +1,2 @@
 C:\myData\Min_Coding\LEV22\x64\Debug\LEV22.exe
+D:\myData\Min_Coding\LEV22\x64\Debug\LEV22.exe
