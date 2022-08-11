@@ -16,7 +16,7 @@ void run(int lev, int gop) {
 
 	if (lev == 4) {
 		if (dat[gop + 1000] == 0) cnt++;
-		dat[gop + 1000] = 1;
+		dat[gop + 1000] = 1; 
 		return;
 	}
 
