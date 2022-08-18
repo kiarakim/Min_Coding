@@ -1,30 +1,23 @@
 #include<iostream>
 using namespace std;
-// ABCÃÊÄİ¸´
 
-char path[10];
-char name[4] = "ABC";
+char path[6];
+char name[5];
 int cnt;
-int n;
-
-int isPossible(int level) {
-	if (level < 3) return 1;
-	if (path[level - 3] != path[level - 2]) return 1;
-	if (path[level - 2] != path[level - 1]) return 1;
-
-	return 0;
-}
 
 void run(int lev) {
 
-	if (isPossible(lev) == 0) return;
+	if (lev > 1) {
+		if (path[lev - 2] == 'B' && path[lev - 1] == 'T') return;
+		if (path[lev - 2] == 'T' && path[lev - 1] == 'B') return;
+	}
 
-	if (lev == n) {
+	if (lev == 4) {
 		cnt++;
 		return;
 	}
 
-	for (int i = 0; i < 3; i++) {
+	for (int i = 0; i < 4; i++) {
 		path[lev] = name[i];
 		run(lev + 1);
 	}
@@ -32,8 +25,7 @@ void run(int lev) {
 
 int main() {
 
-	cin >> n;
-
+	cin >> name;
 	run(0);
 
 	cout << cnt;
