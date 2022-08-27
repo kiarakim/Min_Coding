@@ -1,1 +1,3 @@
-﻿  LEV25.vcxproj -> D:\myData\Min_Coding\LEV25\x64\Debug\LEV25.exe
+﻿  hw05'.cpp
+D:\myData\Min_Coding\LEV25\hw05'.cpp(14,24): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  LEV25.vcxproj -> D:\myData\Min_Coding\LEV25\x64\Debug\LEV25.exe
