@@ -20,7 +20,7 @@ string makeSmallLetter(string str) {
 void splitHttp(string str) {
 	int a = 0;
 	int b = 0;
-	int old = 0;
+	int old = 0; 
 	int sel;
 	while (1) {
 		a = str.find("http://", old + 1); 
