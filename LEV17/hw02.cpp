@@ -5,7 +5,8 @@ using namespace std;
 
 int main() {
 	int v[8] = { 5,9,4,6,1,5,8,9 };
-	int index, target, offset;
+	int index, target;
+	int offset = 0;
 	cin >> index >> target;
 
 	for (int i = index; i < 8; i++) {
