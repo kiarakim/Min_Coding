@@ -31,4 +31,4 @@ int isExist(int n) {
 	}
 
 	return 1;
-}
+} 
