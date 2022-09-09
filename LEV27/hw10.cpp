@@ -628,7 +628,7 @@
 //}
 
 #include<iostream> 
-using namespace std;
+using namespace std; 
 
 int main() {
 	int A[3][3] = {
