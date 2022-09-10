@@ -630,7 +630,7 @@
 #include<iostream> 
 using namespace std; 
 
-int main() {
+int main() { 
 	int A[3][3] = {
 		2,6,3,
 		7,1,1,
