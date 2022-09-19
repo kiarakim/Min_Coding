@@ -37,7 +37,7 @@ int main() {
 	}
 
 	for (int i = 0; i < 5; i++) {
-		int n = i % 4; 
+		int n = i % 4;  
 		run(n);
 	}
 
