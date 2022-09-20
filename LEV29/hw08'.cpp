@@ -38,7 +38,7 @@ int main() {
 
 	for (int i = 0; i < 5; i++) {
 		int n = i % 4;  
-		run(n);
+		run(n); 
 	}
 
 	for (int y = 0; y < 4; y++) {
